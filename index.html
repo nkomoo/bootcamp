@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-info">
+        <p> Information here regarding the contact form</p>
+    </div>
+    <h3>Get in touch</h3>
+    <!--Adds a form element, action attribute is empty -->
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <label for="subject">Subject: </label>
+            <input type="subject" name="subject" id="subject" required>
+        </div>
+        <div class="form-example">
+            <label for="message">Message: </label>
+            <input type="message" name="message" id="message" required>
+        </div>
+        <!--Added a checklist for the contact form -->
+        <br><input type="radio" id="choices" name="choices">
+         <label for="">Media inquiries</label>
+          <br><input type="radio" iradiod="choices" name="choices">
+          <label for="">General questions</label>
+        <br><input type="radio" id="choices" name="choices">
+          <label for="">Sponsorships</label>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!">
+        </div>
+
+    </form>
+
+</body>
