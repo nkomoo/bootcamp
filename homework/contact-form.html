@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CONTACT FORM</title>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form action="test.com">
+        <!--h1 is the bigger text - the important header-->
+        <h1> Contact us form </h1>
+        <label for="firstname">First name:</label><br>
+        <!--The label tag for the input element and
+  ID is used as a unique identifier for an HTML element-->
+        <input type="text" id="firstname" name="firstname"><br><br>
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="surname"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="question"> Do you want free popcorn? </label>
+        <input type="checkbox" id="message" name="message" value=""><br><br>
+        <label for="message">Message</label><br>
+        <textarea id="subject" name="message" placeholder="Write something.."
+            style="height:200px;width:300px"></textarea><br><br>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <label for="birthday">Date of birth:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <!--or <button>Submit</button>-->
+        <input type="submit">
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
