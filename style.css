@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body,
+h1,
+h2,
+p {
+    background-color: black;
+    color: white;
+    font-family: "Segoe UI", Verdana, sans-serif;
+
+}
+
+p {
+    font-weight: 16px;
+}
+
+h1 {
+    background-image: url("/img/Records.jpg");
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: #ef8354;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+img {
+    width: 500px;
+}
+
+.title2 {
+    background-color: #0e7c7b;
+}
+
+.title3 {
+    background-color: #9c538b;
+}
+
+.textchange {
+    color: #ef8354;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textchange:hover {
+    color: #9c528b;
+}
+
+.saletext {
+    font-weight: bold;
+}
