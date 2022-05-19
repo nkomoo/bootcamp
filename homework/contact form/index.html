@@ -1,52 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-body {
-  font-family: 'Lato', sans-serif;
-  background-color: #274471;
-}
-* {
-  box-sizing: border-box;
-  border-color: white;
-}
-.container {
-  width: 400px;
-  align-item: center;
-  background-color: rgb(243,243,243);
-  border-radius: 6px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin: auto;
-}
-#contactForm {
-  padding: 25px;
-}
-input {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: 0px;
-  margin-right: 0px;
-  border-radius: 5px;
-  /*border:none; if l want the contact form to look exactly like the image given for homework*/
-}
-input[type=text]:hover {
-  background-color: #d1d1d1;
-}
-input[type=email]:hover {
-  background-color: #d1d1d1;
-}
-input[type=submit] {
-  background-color: #1ac0f3;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-}
-textarea:hover {
-  background-color: #d1d1d1;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="contactForm" action="">
+        <h1>Get in Touch</h1>
+        <label for="firstName">First Name</label>
+
+        <input type="text" id="firstName" name="firstName" maxlength="100" />
+
+        <label for="surname">Surname</label>
+
+        <input type="text" id="surname" name="surname" maxlength="100" />
+
+        <label for="email">Email</label>
+
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Message</label><br>
+
+        <textarea name="message" rows="6" cols="45"></textarea>
+
+        <input type="submit" value="Send a message" />
+      </form>
+    </div>
+  </body>
+</html>
