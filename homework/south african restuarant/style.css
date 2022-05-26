@@ -264,18 +264,101 @@ MAIN INFORMATION (1st SECTION)
 }
 
 /* --------------------
-MEDIA QUERIE FOR MAIN SECTION 
------------------------
-*/
+MEDIA QUERIE FOR ALL SECTIONS OF THE HOME PAGE
+----------------------- */
+@media only screen and (max-device-width: 320px) {
 
+    .hook {
+        left: 22px;
+        top: 378px;
+    }
 
+    .bigtext {
+        text-align: center;
+        position: absolute;
+        left: -61px;
+    }
 
+    .hook2 {
+        font-size: 15px;
+        position: relative;
+        top: 137px;
+        left: -32px;
+        text-align: center;
+    }
 
+    br {
+        display: none;
+    }
 
+    .button1,
+    .button2 {
+        position: relative;
+        top: 142px;
+        left: 29px;
+    }
 
+    .rectangle {
+        left: 20px;
+        width: 280px;
+        top: 115px;
+    }
 
+    .firstimg {
+        left: 133px;
+        width: 118px;
+        height: 100px;
+        top: 95px;
+        clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+        display: none;
+    }
 
+    .secondimg {
+        left: 125px;
+        top: 246px;
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
 
+    .thirdimg {
+        left: 35px;
+        width: 121px;
+        height: 100px;
+        clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+        display: none;
+    }
+
+    .square {
+        position: absolute;
+        top: 910px;
+        background: green;
+    }
+
+    .main_information {
+        width: 100%;
+    }
+
+    /* Navigation */
+
+    nav {
+        height: 80px;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    li {
+        border-bottom: 1px solid rgb(7, 33, 5);
+        width: 100%;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+}
 
 
 /* ---------------------
