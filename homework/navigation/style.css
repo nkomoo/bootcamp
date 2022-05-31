@@ -1,0 +1,43 @@
+html, 
+body {
+  width: auto;
+  height: auto;
+}
+nav {
+  font-size:2rem;
+  background-color: black;
+  /* changes the font-size and background of navigation bar/tag */
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+/* this removes the bullet points, there is no space between the inner (content) box and the outer (border) box so there is zero padding and margin and display flex put in the container making the lists (child items) flex items */
+} 
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+  color: white;
+  flex: auto;
+  text-align: center;
+  text-transform: uppercase;
+  /* added padding to the navigation shape, colours list, flex: auto to absorb any extra space in the flex container (nav ul) and shrinks to it's minimum size to fit the container */
+}
+
+nav ul li:hover {
+  background-color: grey;
+  /* self explanatory */
+}
+
+
+@media all and (max-width: 400px) {
+  nav ul {
+    flex-direction: column;
+    /* When the webpage shrinks to a width of 400px, the navigation should look like a column inside of an inline-block*/
+  }
+  nav ul li {
+    text-align: center;
+  /* self-explanatory */
+            }
+}
