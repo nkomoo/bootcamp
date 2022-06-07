@@ -1,0 +1,14 @@
+
+.container {
+  display: flex;
+    justify-content: center;
+  align-items: center;
+
+}
+.centre-me {
+ border-style: solid;
+   border-color: coral;
+  border-width: 7px;
+  width: 100px;
+   
+}
