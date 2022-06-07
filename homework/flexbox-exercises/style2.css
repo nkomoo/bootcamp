@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+section {
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid #4d4e53;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+
+}
+
+.wrapper {
+  border: 1px solid rgb(219, 219, 219);
+
+}
+
+input {
+  border: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+
+input[type="text"] {
+  background-color: rgba(75, 21, 97, 0.5);
+  border-radius: 5px 0px 0px 5px;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-grow: 2;
+flex: 2;
+
+}
+
+
+input[type="submit"] {
+  background-color: rgba(75, 21, 97, 1);
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  flex-grow: 1;
+  flex: 1;
+
+}
