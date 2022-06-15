@@ -2,3 +2,6 @@
 // 2. Console.log your country
 let myCountry = "England";
 console.log(myCountry);
+
+// 3. Log the length of your country using the length property
+console.log(myCountry.length);
