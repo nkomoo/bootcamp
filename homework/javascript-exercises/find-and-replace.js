@@ -15,3 +15,10 @@ function findAndReplace(text1, text2, text3) {
 }
 
 findAndReplace("Hi, how are you?", "Hi", "Hello")
+
+// OR
+
+function findAndReplace(string, search, replace) {
+return string.split(search).join(replace);
+}
+findAndReplace("Hi, how are you?", "Hi", "Hello")
