@@ -48,6 +48,8 @@
   const lowOrHi = document.querySelector('lowOrHi');
   const guessSubmit = document.querySelector('.guessSubmit');
   const guessField = document.querySelector('.guessField');
+console.log(lowOrHi);
+	
 
   let guessCount = 1;
   let resetButton;
@@ -74,7 +76,7 @@
       if(userGuess < randomNumber) {
         lowOrHi.textContent = 'Last guess was too low!';
       } else if(userGuess > randomNumber) {
-        lowOrHi.textContent = 'Last guess was too high!';
+        const lowOrHi = document.querySelector('lowOrHi');
       }
     }
 
