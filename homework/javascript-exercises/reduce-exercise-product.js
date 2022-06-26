@@ -17,3 +17,10 @@ let numberArray = [15, 16, 17, 18, 19].reduce(
 	1
 )
 console.log(numberArray); //result is 1395360
+
+//without function 
+let numberArray = [15, 16, 17, 18, 19];
+const reduceSum = numberArray.reduce((total, current) => {
+return total*current;
+})
+console.log(reduceSum);
