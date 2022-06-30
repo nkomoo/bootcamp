@@ -8,3 +8,5 @@ f.innerHTML = `<li> ${item} </li>`;
   
 })
 
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
