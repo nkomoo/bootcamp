@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+</head>
+
+<body>
+  <form id="form">
+    <label>Enter a value in Pounds: </label>
+    <br>
+    <input id="pounds" type="number">
+    <br><br>
+    <button type="submit">Convert</button>
+  </form>
+  <p id="result">
+
+  </p>
+  </nav>
+
+  <script>
+    const form = document.querySelector("#form");
+    const pounds = document.querySelector("#pounds");
+    const result = document.querySelector("#result");
+    const poundsToDollars = 1.3;
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const dollars = convertPounds(pounds.value);
+      result.textContent = `You have $${dollars}`;
+    })
+
+    function convertPounds(pounds) {
+      return (pounds * poundsToDollars).toFixed(2);
+    }
+
+  </script>
+</body>
+
+</html>

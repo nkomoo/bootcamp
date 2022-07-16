@@ -1,0 +1,26 @@
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
+
+.red {
+  color: red;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  background-color: rgb(63, 146, 255);
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+h1 {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+.collapsible-group {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  background-color: rgb(63, 146, 255);
+}
+
+.button:hover {
+  background-color: rgb(6, 91, 202);
+}
+
+p {
+  padding: 1rem;
+  border: 1px solid darkgray;
+}
+
+.hide {
+  display: none;
+  /* visibility:hidden; */
+}

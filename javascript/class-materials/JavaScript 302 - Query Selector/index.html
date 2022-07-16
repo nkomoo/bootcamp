@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Query Selector</title>
+  </head>
+  <body>
+    <h1>Query Selector</h1>
+    <article>
+      <p id="Intro">
+        Query Selectors use CSS selectors to select an element on a page
+      </p>
+      <ul>
+        <li class="list-item">
+          Query Selectors return an object that represents an HTML element from
+          the page​
+        </li>
+        <li class="list-item">
+          If the element does not exists it will return null.
+          <span id="highlight">This could break your code.</span>
+        </li>
+        <li class="list-item">
+          If you think it might return null you can use optional chaining or an
+          if statement to stop it breaking.
+        </li>
+      </ul>
+    </article>
+    <h2>Where might I use a query selector?</h2>
+    <p id="dynamic-text"></p>
+    <h2>Similarities between arrays and node lists</h2>
+    <ul>
+      <li>Both have a length property</li>
+      <li>You can use the forEach method to iterate through node lists</li>
+      <li>You can use square brackets to access a specific node</li>
+    </ul>
+    <h3>A Dynamic List</h3>
+    <ul id="dynamic-list">
+      <li class="dynamic-list-item">List item</li>
+      <li class="dynamic-list-item">List item</li>
+      <li class="dynamic-list-item">List item</li>
+    </ul>
+    <script src="app.js"></script>
+  </body>
+</html>
